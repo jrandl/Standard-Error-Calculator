@@ -1,0 +1,9 @@
+
+from math import *
+
+print('Please enter p or percent in decimal:')
+p = float(input())
+print('Please enter n or size:')
+n = int(input())
+se: float = sqrt(((p * (1 - p)) / n))
+print(se)
